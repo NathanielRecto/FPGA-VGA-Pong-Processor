@@ -195,7 +195,7 @@ The waveform below shows the blanking interval, where `VideoOn` is low and RGB o
 
 The final output displays the Pong field, including the green background, white borders, dashed centre line, paddles, and moving ball.
 
-![Pong Game Output](assets/pong-output.jpg)
+![Pong Game Output](assets/pong-output.png)
 
 ## How to Run
 
@@ -215,3 +215,7 @@ The final output displays the Pong field, including the green background, white 
 - Improve collision detection so the ball reflects based on the exact paddle contact point.
 - Add different ball speeds as the game progresses.
 - Add sound or LED indicators for goals.
+
+## License
+
+This repository is for academic and portfolio use. If you reuse this project, follow your institution's academic integrity policy and do not submit it as your own work.
