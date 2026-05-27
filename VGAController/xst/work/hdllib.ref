@@ -1,0 +1,6 @@
+EN vgacontroller NULL /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd sub00/vhpl00 1763430639
+AR ila ila_a /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd sub00/vhpl05 1763430638
+AR icon icon_a /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd sub00/vhpl03 1763430636
+EN icon NULL /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd sub00/vhpl02 1763430635
+AR vgacontroller behavioral /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd sub00/vhpl01 1763430640
+EN ila NULL /home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd sub00/vhpl04 1763430637

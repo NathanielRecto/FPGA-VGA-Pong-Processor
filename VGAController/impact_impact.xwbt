@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/impact.xsl
+OUTFILE=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController
+LICENSE=iMPACT
+USER_INFO=iMPACT

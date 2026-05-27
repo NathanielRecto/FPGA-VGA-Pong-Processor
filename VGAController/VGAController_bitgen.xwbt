@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.ncd
+OUTFILE=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController
+LICENSE=ISE
+USER_INFO=175353682_174116511_210722484_808

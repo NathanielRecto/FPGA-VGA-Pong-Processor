@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGAController</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGAController/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/icon</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/icon.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/icon/icon_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/icon.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ila</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/ila.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ila/ila_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/ila.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd</arg>&quot; line <arg fmt="%d" index="2">84</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">icon</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ila</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Switches&lt;3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Switches&lt;1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">trig0</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ila_data&lt;127:48&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000000000000000000000000000000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">last_scorer_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGAController</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">last_scorer_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">VGAController</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">G_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGAController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;G_1&gt; &lt;G_2&gt; &lt;G_3&gt; &lt;G_4&gt; &lt;G_5&gt; &lt;G_6&gt; &lt;G_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">B_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGAController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;B_1&gt; &lt;B_2&gt; &lt;B_3&gt; &lt;B_4&gt; &lt;B_5&gt; &lt;B_6&gt; &lt;B_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">R_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGAController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;R_1&gt; &lt;R_2&gt; &lt;R_3&gt; &lt;R_4&gt; &lt;R_5&gt; &lt;R_6&gt; &lt;R_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VGAController</arg>&gt;.
+</msg>
+
+</messages>

@@ -1,0 +1,441 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: VGAController.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGAController.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGAController"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : VGAController
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/VGAController is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGAController/Behavioral is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAController.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd".
+WARNING:HDLParsers:3607 - Unit work/icon is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/icon.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd".
+WARNING:HDLParsers:3607 - Unit work/icon/icon_a is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/icon.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd".
+WARNING:HDLParsers:3607 - Unit work/ila is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/ila.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd".
+WARNING:HDLParsers:3607 - Unit work/ila/ila_a is now defined in a different file.  It was defined in "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/ipcore_dir/ila.vhd", and is now defined in "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd".
+Compiling vhdl file "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/icon.vhd" in Library work.
+Architecture icon_a of Entity icon is up to date.
+Compiling vhdl file "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/ipcore_dir/ila.vhd" in Library work.
+Architecture ila_a of Entity ila is up to date.
+Compiling vhdl file "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd" in Library work.
+Entity <vgacontroller> compiled.
+Entity <vgacontroller> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VGAController> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VGAController> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd" line 84: Instantiating black box module <icon>.
+WARNING:Xst:2211 - "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd" line 88: Instantiating black box module <ila>.
+Entity <VGAController> analyzed. Unit <VGAController> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <VGAController>.
+    Related source file is "/home/student2/nrecto/TMU/4thYear/COE758/Project2/VGAController/VGAController.vhd".
+WARNING:Xst:647 - Input <Switches<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Switches<1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <trig0> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:653 - Signal <ila_data<127:48>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000000000000000000000000000000000000000000000000000.
+    Found finite state machine <FSM_0> for signal <ball_y_velocity>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 45                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 2                                              |
+    | Clock              | Pixel_Clk                 (rising_edge)        |
+    | Clock enable       | ball_y_velocity$not0000   (positive)           |
+    | Power Up State     | 00000000000000000000000000000001               |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <ball_x_velocity>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 14874                                          |
+    | Inputs             | 38                                             |
+    | Outputs            | 2                                              |
+    | Clock              | Pixel_Clk                 (rising_edge)        |
+    | Clock enable       | ball_x_velocity$not0000   (positive)           |
+    | Power Up State     | 00000000000000000000000000000001               |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <B>.
+    Found 32-bit comparator greater for signal <B$cmp_gt0000> created at line 165.
+    Found 32-bit comparator greater for signal <B$cmp_gt0001> created at line 168.
+    Found 32-bit comparator greater for signal <B$cmp_gt0002> created at line 168.
+    Found 32-bit comparator greater for signal <B$cmp_gt0003> created at line 168.
+    Found 32-bit comparator greater for signal <B$cmp_gt0004> created at line 168.
+    Found 32-bit comparator greater for signal <B$cmp_gt0005> created at line 168.
+    Found 32-bit comparator greater for signal <B$cmp_gt0006> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0007> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0008> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0009> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0010> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0011> created at line 178.
+    Found 32-bit comparator greater for signal <B$cmp_gt0012> created at line 187.
+    Found 32-bit comparator greater for signal <B$cmp_gt0013> created at line 187.
+    Found 32-bit comparator greater for signal <B$cmp_gt0014> created at line 194.
+    Found 32-bit comparator greater for signal <B$cmp_gt0015> created at line 194.
+    Found 32-bit comparator less for signal <B$cmp_lt0000> created at line 165.
+    Found 32-bit comparator less for signal <B$cmp_lt0001> created at line 168.
+    Found 32-bit comparator less for signal <B$cmp_lt0002> created at line 168.
+    Found 32-bit comparator less for signal <B$cmp_lt0003> created at line 168.
+    Found 32-bit comparator less for signal <B$cmp_lt0004> created at line 168.
+    Found 32-bit comparator less for signal <B$cmp_lt0005> created at line 168.
+    Found 32-bit comparator less for signal <B$cmp_lt0006> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0007> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0008> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0009> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0010> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0011> created at line 178.
+    Found 32-bit comparator less for signal <B$cmp_lt0012> created at line 187.
+    Found 32-bit comparator less for signal <B$cmp_lt0013> created at line 187.
+    Found 32-bit comparator less for signal <B$cmp_lt0014> created at line 194.
+    Found 32-bit comparator less for signal <B$cmp_lt0015> created at line 194.
+    Found 32-bit up counter for signal <ball_delay_counter>.
+    Found 32-bit register for signal <ball_x>.
+    Found 32-bit adder for signal <ball_x_velocity$add0000> created at line 285.
+    Found 32-bit adder for signal <ball_x_velocity$add0001> created at line 294.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0000> created at line 286.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0001> created at line 294.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0002> created at line 306.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0003> created at line 304.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0004> created at line 241.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0005> created at line 241.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0006> created at line 285.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0007> created at line 296.
+    Found 32-bit comparator greatequal for signal <ball_x_velocity$cmp_ge0008> created at line 286.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0000> created at line 287.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0001> created at line 285.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0002> created at line 296.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0003> created at line 295.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0004> created at line 294.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0005> created at line 304.
+    Found 32-bit comparator greater for signal <ball_x_velocity$cmp_gt0006> created at line 305.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0000> created at line 295.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0001> created at line 294.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0002> created at line 305.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0003> created at line 304.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0004> created at line 241.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0005> created at line 285.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0006> created at line 262.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0007> created at line 234.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0008> created at line 295.
+    Found 32-bit comparator lessequal for signal <ball_x_velocity$cmp_le0009> created at line 287.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0000> created at line 287.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0001> created at line 286.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0002> created at line 285.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0003> created at line 296.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0004> created at line 294.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0005> created at line 251.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0006> created at line 304.
+    Found 32-bit comparator less for signal <ball_x_velocity$cmp_lt0007> created at line 306.
+    Found 32-bit subtractor for signal <ball_x_velocity$sub0000> created at line 285.
+    Found 32-bit subtractor for signal <ball_x_velocity$sub0001> created at line 294.
+    Found 32-bit register for signal <ball_y>.
+    Found 32-bit adder for signal <ball_y_velocity$add0002> created at line 251.
+    Found 32-bit adder for signal <ball_y_velocity$add0003> created at line 313.
+    Found 32-bit adder for signal <ball_y_velocity$add0004> created at line 251.
+    Found 32-bit adder for signal <ball_y_velocity$add0005> created at line 241.
+    Found 32-bit adder for signal <ball_y_velocity$addsub0000> created at line 241.
+    Found 32-bit adder for signal <ball_y_velocity$addsub0001> created at line 251.
+    Found 32-bit comparator greatequal for signal <ball_y_velocity$cmp_ge0000> created at line 251.
+    Found 32-bit comparator greatequal for signal <ball_y_velocity$cmp_ge0001> created at line 241.
+    Found 32-bit comparator greatequal for signal <ball_y_velocity$cmp_ge0002> created at line 314.
+    Found 32-bit comparator greater for signal <ball_y_velocity$cmp_gt0000> created at line 241.
+    Found 32-bit comparator greater for signal <ball_y_velocity$cmp_gt0001> created at line 313.
+    Found 32-bit comparator greater for signal <ball_y_velocity$cmp_gt0002> created at line 262.
+    Found 32-bit comparator greater for signal <ball_y_velocity$cmp_gt0003> created at line 234.
+    Found 32-bit comparator lessequal for signal <ball_y_velocity$cmp_le0000> created at line 313.
+    Found 32-bit comparator less for signal <ball_y_velocity$cmp_lt0000> created at line 241.
+    Found 32-bit comparator less for signal <ball_y_velocity$cmp_lt0001> created at line 241.
+    Found 32-bit comparator less for signal <ball_y_velocity$cmp_lt0002> created at line 314.
+    Found 32-bit comparator less for signal <ball_y_velocity$cmp_lt0003> created at line 251.
+    Found 32-bit subtractor for signal <ball_y_velocity$sub0000> created at line 241.
+    Found 32-bit subtractor for signal <ball_y_velocity$sub0001> created at line 241.
+    Found 32-bit up counter for signal <counter>.
+    Found 8-bit register for signal <G>.
+    Found 32-bit adder for signal <G$add0000> created at line 201.
+    Found 32-bit adder for signal <G$add0001> created at line 201.
+    Found 32-bit comparator greater for signal <G$cmp_gt0000> created at line 201.
+    Found 32-bit comparator greater for signal <G$cmp_gt0001> created at line 201.
+    Found 32-bit comparator less for signal <G$cmp_lt0000> created at line 201.
+    Found 32-bit comparator less for signal <G$cmp_lt0001> created at line 201.
+    Found 32-bit subtractor for signal <G$sub0000> created at line 201.
+    Found 32-bit subtractor for signal <G$sub0001> created at line 201.
+    Found 32-bit up counter for signal <HorizontalPosCounter>.
+    Found 1-bit register for signal <Hsync_internal>.
+    Found 32-bit comparator greater for signal <Hsync_internal$cmp_gt0000> created at line 128.
+    Found 32-bit comparator less for signal <Hsync_internal$cmp_lt0000> created at line 128.
+    Found 32-bit up counter for signal <input_delay_counter>.
+    Found 2-bit register for signal <last_scorer>.
+    Found 32-bit comparator greatequal for signal <last_scorer$cmp_ge0000> created at line 251.
+    Found 32-bit up counter for signal <pause_counter>.
+    Found 32-bit adder for signal <pause_counter$add0000> created at line 263.
+    Found 1-bit register for signal <Pixel_Clk>.
+    Found 32-bit register for signal <player1_y>.
+    Found 32-bit addsub for signal <player1_y$addsub0000>.
+    Found 32-bit comparator greater for signal <player1_y$cmp_gt0001> created at line 328.
+    Found 32-bit comparator greater for signal <player1_y$cmp_gt0002> created at line 346.
+    Found 32-bit comparator less for signal <player1_y$cmp_lt0000> created at line 347.
+    Found 32-bit 4-to-1 multiplexer for signal <player1_y$mux0003>.
+    Found 32-bit register for signal <player2_y>.
+    Found 32-bit addsub for signal <player2_y$addsub0000>.
+    Found 32-bit comparator greater for signal <player2_y$cmp_gt0001> created at line 348.
+    Found 32-bit comparator less for signal <player2_y$cmp_lt0000> created at line 349.
+    Found 32-bit 4-to-1 multiplexer for signal <player2_y$mux0003>.
+    Found 8-bit register for signal <R>.
+    Found 32-bit up counter for signal <VerticalPosCounter>.
+    Found 32-bit comparator less for signal <VerticalPosCounter$cmp_lt0000> created at line 115.
+    Found 32-bit comparator less for signal <VerticalPosCounter$cmp_lt0001> created at line 111.
+    Found 1-bit register for signal <Video_On>.
+    Found 32-bit comparator less for signal <Video_On$cmp_lt0000> created at line 152.
+    Found 32-bit comparator less for signal <Video_On$cmp_lt0001> created at line 152.
+    Found 1-bit register for signal <Vsync_internal>.
+    Found 32-bit comparator greater for signal <Vsync_internal$cmp_gt0000> created at line 140.
+    Found 32-bit comparator less for signal <Vsync_internal$cmp_lt0000> created at line 140.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   6 Counter(s).
+	inferred 158 D-type flip-flop(s).
+	inferred  19 Adder/Subtractor(s).
+	inferred  96 Comparator(s).
+	inferred  64 Multiplexer(s).
+Unit <VGAController> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 19
+ 32-bit adder                                          : 11
+ 32-bit addsub                                         : 2
+ 32-bit subtractor                                     : 6
+# Counters                                             : 6
+ 32-bit up counter                                     : 6
+# Registers                                            : 12
+ 1-bit register                                        : 4
+ 2-bit register                                        : 1
+ 32-bit register                                       : 4
+ 8-bit register                                        : 3
+# Comparators                                          : 96
+ 32-bit comparator greatequal                          : 13
+ 32-bit comparator greater                             : 34
+ 32-bit comparator less                                : 38
+ 32-bit comparator lessequal                           : 11
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <ball_x_velocity/FSM> on signal <ball_x_velocity[1:2]> with sequential encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000001 | 00
+ 11111111111111111111111111111111 | 01
+ 00000000000000000000000000000000 | 10
+----------------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <ball_y_velocity/FSM> on signal <ball_y_velocity[1:2]> with gray encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000001 | 00
+ 11111111111111111111111111111111 | 01
+ 00000000000000000000000000000000 | 11
+----------------------------------------------
+Reading core <ipcore_dir/icon.ngc>.
+Reading core <ipcore_dir/ila.ngc>.
+Loading core <icon> for timing and area information for instance <system_icon>.
+Loading core <ila> for timing and area information for instance <system_ila>.
+WARNING:Xst:1426 - The value init of the FF/Latch last_scorer_0 hinder the constant cleaning in the block VGAController.
+   You should achieve better results by setting this init to 1.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 19
+ 32-bit adder                                          : 11
+ 32-bit addsub                                         : 2
+ 32-bit subtractor                                     : 6
+# Counters                                             : 6
+ 32-bit up counter                                     : 6
+# Registers                                            : 158
+ Flip-Flops                                            : 158
+# Comparators                                          : 96
+ 32-bit comparator greatequal                          : 13
+ 32-bit comparator greater                             : 34
+ 32-bit comparator less                                : 38
+ 32-bit comparator lessequal                           : 11
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch last_scorer_0 hinder the constant cleaning in the block VGAController.
+   You should achieve better results by setting this init to 1.
+INFO:Xst:2261 - The FF/Latch <G_0> in Unit <VGAController> is equivalent to the following 7 FFs/Latches, which will be removed : <G_1> <G_2> <G_3> <G_4> <G_5> <G_6> <G_7> 
+INFO:Xst:2261 - The FF/Latch <B_0> in Unit <VGAController> is equivalent to the following 7 FFs/Latches, which will be removed : <B_1> <B_2> <B_3> <B_4> <B_5> <B_6> <B_7> 
+INFO:Xst:2261 - The FF/Latch <R_0> in Unit <VGAController> is equivalent to the following 7 FFs/Latches, which will be removed : <R_1> <R_2> <R_3> <R_4> <R_5> <R_6> <R_7> 
+WARNING:Xst:2677 - Node <counter_1> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_2> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_3> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_4> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_5> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_6> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_7> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_8> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_9> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_10> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_11> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_12> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_13> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_14> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_15> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_16> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_17> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_18> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_19> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_20> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_21> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_22> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_23> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_24> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_25> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_26> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_27> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_28> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_29> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_30> of sequential type is unconnected in block <VGAController>.
+WARNING:Xst:2677 - Node <counter_31> of sequential type is unconnected in block <VGAController>.
+
+Optimizing unit <VGAController> ...

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAControllerTest_isim_beh.exe" -prj "/home/student2/nrecto/TMU/4thYear/COE758/VGAController-main/src/VGAController/VGAControllerTest_beh.prj" "work.VGAControllerTest" 
